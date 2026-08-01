@@ -1,7 +1,12 @@
 aid: squadio
 name: Squadio
-description: Squadio is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Squadio is a Tech Teams as a Service (TaaS) platform, backed by 500 Global,
+  that lets companies spin up dedicated squads of vetted software engineers and tech
+  talent to build, scale, and digitally transform their projects. The platform covers
+  hiring tech talent, payroll management, MVP development, and talent buyout, and pairs
+  clients with talent through an assisted onboarding flow that includes its Lama AI
+  assistant. Squadio operates primarily across the MENA region and connects businesses
+  with remote engineering teams rather than exposing a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/squadio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://squadio.com/android-chrome-192x192.png
 tags:
 - Company
+- Teams as a Service
+- Staff Augmentation
+- Software Development
+- Tech Talent
+- Payroll
+- MVP Development
+- Outsourcing
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/squadio-domain-security.yml
 - type: Website
   url: https://squadio.com
+- type: SignUp
+  url: https://squadio.com/signUp
+- type: Login
+  url: https://squadio.com/login
+- type: Support
+  url: https://squadio.com/contact-us
+- type: PrivacyPolicy
+  url: https://squadio.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
